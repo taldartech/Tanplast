@@ -212,6 +212,9 @@ h6,
     padding-bottom: 6rem;
     background: url(../img/header.jpg) top left no-repeat;
     background-size: cover;
+    height: 450px;
+    align-items: center;
+    align-content: center;
 }
 
 .page-header .breadcrumb-item,
@@ -280,7 +283,9 @@ h6,
 .service .nav .nav-link.active h5 i {
     color: #FFFFFF !important;
 }
-
+.img{
+    height: 50px;
+}
 
 /*** Project ***/
 .project-item,

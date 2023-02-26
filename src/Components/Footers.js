@@ -24,19 +24,19 @@ function Footers(){
               </div>
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Services</h4>
-                <a className="btn btn-link" href>Water Sachet</a>
+                <a className="btn btn-link" href>Water Sachet Producers</a>
                 <a className="btn btn-link" href>Industrial Consumers</a>
                 <a className="btn btn-link" href>Shopping Outlets</a>
-                <a className="btn btn-link" href>Business Loans</a>
-                <a className="btn btn-link" href>Business Analysis</a>
+                <a className="btn btn-link" href>Construction Industry</a>
+                <a className="btn btn-link" href>Food & Beverage Plant</a>
               </div>
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Quick Links</h4>
+                <a className="btn btn-link" href>Home</a>
                 <a className="btn btn-link" href>About Us</a>
                 <a className="btn btn-link" href>Contact Us</a>
                 <a className="btn btn-link" href>Our Services</a>
-                <a className="btn btn-link" href>Terms &amp; Condition</a>
-                <a className="btn btn-link" href>Support</a>
+                
               </div>
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Newsletter</h4>

@@ -17,7 +17,7 @@ function Services() {
           <OwlCarousel className="service-carousel" margin={8} autoplay={true} loop  data-wow-delay="0.3s">
             <div className="project-item pe-5 pb-5 ">
               <div className="project-img mb-3">
-                <img className="img-fluid rounded" src="img/products/watersachet.png" alt="" style={{ height: '250px' }} />
+                <img className="img-fluid rounded" src="img/products/WATERSACHET.jpg" alt="" style={{ height: '250px' }} />
                 <a href><i className="fa fa-link fa-3x text-primary" /></a>
               </div>
               <div className="project-title">
@@ -26,7 +26,7 @@ function Services() {
             </div>
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
-                <img className="img-fluid rounded" src="img/products/shoppingoutlet.png" alt="" style={{ height: '250px' }} />
+                <img className="img-fluid rounded" src="img/products/shoppingoutlets.jpg" alt="" style={{ height: '250px' }} />
                 <a href><i className="fa fa-link fa-3x text-primary" /></a>
               </div>
               <div className="project-title">
@@ -35,7 +35,7 @@ function Services() {
             </div>
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
-                <img className="img-fluid rounded" src="img/products/industrial.png" alt="" style={{ height: '250px' }} />
+                <img className="img-fluid rounded" src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" alt="" style={{ height: '250px' }} />
                 <a href><i className="fa fa-link fa-3x text-primary" /></a>
               </div>
               <div className="project-title">
@@ -44,7 +44,7 @@ function Services() {
             </div>
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
-                <img className="img-fluid rounded" src="img/products/fb.png" alt="" style={{ height: '250px' }} />
+                <img className="img-fluid rounded" src="img/products/FOOD&BEVERAGE.jpg" alt="" style={{ height: '250px' }} />
                 <a href><i className="fa fa-link fa-3x text-primary" /></a>
               </div>
               <div className="project-title">
@@ -53,7 +53,7 @@ function Services() {
             </div>
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
-                <img className="img-fluid rounded" src="img/products/construction.png" alt="" style={{ height: '250px' }} />
+                <img className="img-fluid rounded" src="img/products/black-pallet-wrap-1.jpg" alt="" style={{ height: '250px' }} />
                 <a href><i className="fa fa-link fa-3x text-primary" /></a>
               </div>
               <div className="project-title">
