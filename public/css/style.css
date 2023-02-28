@@ -23,6 +23,10 @@ h2,
     font-weight: 700 !important;
 }
 
+h1,h2,h3,h4,h5,h6{
+    color: #1f2859
+}
+
 h3,
 .h3,
 h4,
@@ -216,6 +220,24 @@ h6,
     align-items: center;
     align-content: center;
 }
+.business-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/canva/business1.png) top left no-repeat;
+    background-size: cover;
+    height: 450px;
+    align-items: center;
+    align-content: center;
+}
+.contact-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/canva/contact.png) top left no-repeat;
+    background-size: cover;
+    height: 450px;
+    align-items: center;
+    align-content: center;
+}
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
@@ -263,6 +285,9 @@ h6,
 
 .feature .feature-box:hover * {
     color: #FFFFFF !important;
+}
+h4 h2{
+    color:#1f2859
 }
 
 

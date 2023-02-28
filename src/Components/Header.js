@@ -26,7 +26,7 @@ useEffect(() => {
         
         <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
           <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
-            <h1 className="display-5 m-0" style={{color: '#1f2859'}}>Tanplast</h1>
+            <img src="img/tanplast.png" height="70px"/>
           </a>
           <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon" />

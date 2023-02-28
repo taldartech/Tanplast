@@ -12,15 +12,10 @@ function Footers(){
                 <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />8,Kwatsons Warehouse,
                   Printex Junction,Spintex Road,Accra</p>
                 <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233577774555</p>
-                <p className="mb-2"><i className="fa fa-phone-alt me-3" /> +233558396372</p>
-                <p className="mb-2"><i className="fa fa-phone-alt me-3" />  +233573555150</p>
+                <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233558396372</p>
+                <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233573555150</p>
                 <p className="mb-2"><i className="fa fa-envelope me-3" />Tanplastghana10@gmail.com</p>
-                <div className="d-flex pt-2">
-                  <a className="btn btn-square btn-outline-light rounded-circle me-2" href><i className="fab fa-twitter" /></a>
-                  <a className="btn btn-square btn-outline-light rounded-circle me-2" href><i className="fab fa-facebook-f" /></a>
-                  <a className="btn btn-square btn-outline-light rounded-circle me-2" href><i className="fab fa-youtube" /></a>
-                  <a className="btn btn-square btn-outline-light rounded-circle me-2" href><i className="fab fa-linkedin-in" /></a>
-                </div>
+                
               </div>
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Services</h4>
@@ -32,10 +27,10 @@ function Footers(){
               </div>
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Quick Links</h4>
-                <a className="btn btn-link" href>Home</a>
-                <a className="btn btn-link" href>About Us</a>
-                <a className="btn btn-link" href>Contact Us</a>
-                <a className="btn btn-link" href>Our Services</a>
+                <Link className="btn btn-link" to="/">Home</Link>
+                <Link className="btn btn-link" to="/about">About Us</Link>
+                <Link className="btn btn-link" to="/contact">Contact Us</Link>
+                <Link className="btn btn-link" to="/business">Our Businesses</Link>
                 
               </div>
               <div className="col-lg-3 col-md-6">

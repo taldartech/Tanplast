@@ -5,7 +5,7 @@ function Carousel(){
         <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="w-100" src="img/canva/carousel.png" alt="Image" height="700px" />
+              <img className="w-100" src="img/canva/carousel.png" alt="Image" height="600px" />
               <div className="carousel-caption">
                 <div className="container">
                   <div className="row justify-content-start">
@@ -21,7 +21,7 @@ function Carousel(){
               </div>
             </div>
             <div className="carousel-item">
-              <img className="w-100" src="img/canva/carousel2.png" alt="Image" height="700px" />
+              <img className="w-100" src="img/canva/carousel2.png" alt="Image" height="600px" />
               <div className="carousel-caption">
                 <div className="container">
                   <div className="row justify-content-start">

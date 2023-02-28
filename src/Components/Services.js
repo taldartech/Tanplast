@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -18,7 +19,7 @@ function Services() {
             <div className="project-item pe-5 pb-5 ">
               <div className="project-img mb-3">
                 <img className="img-fluid rounded" src="img/products/WATERSACHET.jpg" alt="" style={{ height: '250px' }} />
-                <a href><i className="fa fa-link fa-3x text-primary" /></a>
+                <Link to="/watersachet"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title">
                 <h4 className="mb-0">Water sachet producers</h4>
@@ -27,7 +28,7 @@ function Services() {
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
                 <img className="img-fluid rounded" src="img/products/shoppingoutlets.jpg" alt="" style={{ height: '250px' }} />
-                <a href><i className="fa fa-link fa-3x text-primary" /></a>
+                <Link to="shoppingoutlets"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title">
                 <h4 className="mb-0">Shopping outlets</h4>
@@ -36,7 +37,7 @@ function Services() {
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
                 <img className="img-fluid rounded" src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" alt="" style={{ height: '250px' }} />
-                <a href><i className="fa fa-link fa-3x text-primary" /></a>
+                <Link to="/construction"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title">
                 <h4 className="mb-0">Construction Industry</h4>
@@ -45,7 +46,7 @@ function Services() {
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
                 <img className="img-fluid rounded" src="img/products/FOOD&BEVERAGE.jpg" alt="" style={{ height: '250px' }} />
-                <a href><i className="fa fa-link fa-3x text-primary" /></a>
+                <Link to="/fandb"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title">
                 <h4 className="mb-0">Food &amp; Beverage</h4>
@@ -54,7 +55,7 @@ function Services() {
             <div className="project-item pe-5 pb-5">
               <div className="project-img mb-3">
                 <img className="img-fluid rounded" src="img/products/black-pallet-wrap-1.jpg" alt="" style={{ height: '250px' }} />
-                <a href><i className="fa fa-link fa-3x text-primary" /></a>
+                <Link to="/industrial"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title">
                 <h4 className="mb-0">Industrial Consumers</h4>
