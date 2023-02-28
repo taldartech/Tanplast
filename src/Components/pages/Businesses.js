@@ -9,10 +9,10 @@ function Businesses() {
 
             <Header />
             <div className="container-fluid business-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-                <div className="container text-center py-5">
-                    <h1 className="display-2 mb-4 animated slideInDown" style={{ color: "#1f2859" }}>Our <span style={{ color: "#fbb31b" }} >Businesses</span> </h1>
+                <div className="container text-start py-5">
+                    <h1 className="display-2 mb-4 pt-5 animated slideInDown" style={{ color: "#1f2859" }}>Our <span style={{ color: "#fbb31b" }} >Businesses</span> </h1>
                     <nav aria-label="breadcrumb animated slideInDown">
-                        <ol className="breadcrumb justify-content-center mb-0">
+                        <ol className="breadcrumb justify-content-start mb-0">
                             <li className="breadcrumb-item"><Link to="/">Home</Link></li>
 
                             <li className="breadcrumb-item" aria-current="page" style={{ color: "#fbb31b" }} >Our Businesses</li>

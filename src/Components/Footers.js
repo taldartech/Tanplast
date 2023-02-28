@@ -4,7 +4,7 @@ function Footers(){
     return(
         <>
          <div>
-        <div className="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div className="container-fluid bg-dark text-light footer mt-5 wow fadeIn" data-wow-delay="0.1s">
           <div className="container py-5">
             <div className="row g-5">
               <div className="col-lg-3 col-md-6">
@@ -41,21 +41,18 @@ function Footers(){
                   <button type="button" className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                 </div>
               </div>
+               {/* Copyright Start */}
+        
+              <div className="col-md-12 text-center text-md-center">
+                © <a className="border-bottom" href="#">Tanplast</a>, All Right Reserved.
+              </div>
+           
+        {/* Copyright End */}
             </div>
           </div>
         </div>
         {/* Footer End */}
-        {/* Copyright Start */}
-        <div className="container-fluid copyright py-4">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                © <a className="border-bottom" href="#">Tanplast</a>, All Right Reserved.
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Copyright End */}
+       
         {/* Back to Top */}
         <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i className="bi bi-arrow-up" /></a>
       </div>

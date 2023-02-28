@@ -35,10 +35,10 @@ return(
         <Header/>
         {/* Page Header Start */}
         <div className="container-fluid contact-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-                <div className="container text-center py-5">
-                    <h1 className="display-2 mb-4 animated slideInDown" style={{ color: "#1f2859" }}>Contact <span style={{ color: "#fbb31b" }} >Us</span> </h1>
+                <div className="container text-start py-5">
+                    <h1 className="display-2 mb-4 pt-5 animated slideInDown" style={{ color: "#1f2859" }}>Contact <span style={{ color: "#fbb31b" }} >Us</span> </h1>
                     <nav aria-label="breadcrumb animated slideInDown">
-                        <ol className="breadcrumb justify-content-center mb-0">
+                        <ol className="breadcrumb justify-content-start mb-0">
                             <li className="breadcrumb-item"><Link to="/">Home</Link></li>
 
                             <li className="breadcrumb-item" aria-current="page" style={{ color: "#fbb31b" }} >Contact</li>
@@ -50,10 +50,9 @@ return(
         {/* Contact Start */}
         <div className="container-xxl py-5">
           <div className="container">
-            <div className="  row g-5">
+            <div className="row g-5">
               <div className="text-center col-lg-12 wow fadeIn pb-5" data-wow-delay="0.1s">
-                <p className=" d-inline-block border rounded text-primary fw-bold py-1 px-3">Contact</p>
-                <div className="col-lg-12 col-md-12 wow fadeIn" data-wow-delay="0.5s" style={{width: "100%"}}>
+                 <div className="col-lg-12 col-md-12 wow fadeIn" data-wow-delay="0.5s" style={{width: "100%"}}>
                 <div className="position-relative rounded h-100 w-100">
                   <iframe className="position-relative w-100 h-100 pb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameBorder={0} style={{minHeight: '450px', border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} />
                 </div>
@@ -90,19 +89,19 @@ return(
                   </div>
                 </form>
                 <div className="row">
-                    <h2>Contact us</h2>
+                    <h2 className="text-start pb-3">Contact us</h2>
                     <div className="col-md-6 text-start">
-                    <div className="pb-2"><h4>ADDRESS</h4> <span>8,Kwatsons Warehouse,Printex Junction,Spintex Road,Accra</span></div>
+                    <div className="pb-2"><h5>ADDRESS</h5> <span>8,Kwatsons Warehouse,Printex Junction,Spintex Road,Accra</span></div>
                     <div className="pb-2"><h5>GHANA POST GPS</h5> <span>GT-335-3131</span></div>
-                    <div className="pb-2"><h4>Email : </h4> <span>tanplastghana10@gmail.com</span></div>
+                    <div className="pb-2"><h5>Email : </h5> <span>tanplastghana10@gmail.com</span></div>
                     </div>
                 
-                <div className="text-center col-md-6">
-                    <h4>TELEPHONE NUMBERS</h4>
-                    <ul><li>+233577774555</li>
+                <div className="text-end col-md-6">
+                    <h5>TELEPHONE NUMBERS</h5>
+                    <li>+233577774555</li>
                     <li> +233558396372</li>
                     <li> +233573555150</li>
-                    </ul>
+                    
                 </div>
                 </div>
               </div>

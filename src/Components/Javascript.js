@@ -9,6 +9,7 @@ function Javascript() {
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js1/main.js"></script>
         </>
     )
 }

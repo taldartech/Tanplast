@@ -18,8 +18,10 @@ function Links() {
       <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"></link>
         {/* Customized Bootstrap Stylesheet */}
         <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css1/bootstrap.min.css" rel="stylesheet" />
         {/* Template Stylesheet */}
         <link href="css/style.css" rel="stylesheet" />
+        <link href="css1/style.css" rel="stylesheet" />
     </div>
   );
 }

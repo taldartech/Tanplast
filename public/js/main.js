@@ -88,7 +88,7 @@
     $(".service-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
-        margin: 25,
+        margin: 40,
         loop: true,
         center: true,
         dots: false,
@@ -105,14 +105,25 @@
                 items:1
             },
             768:{
-                items:2
+                items:1
             },
             992:{
                 items:3
             }
         }
     });
-
+    $(".client2-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        items: 1,
+        dots: false,
+        loop: true,
+        nav: true,
+        navText : [
+            '<i class="bi bi-chevron-left"></i>',
+            '<i class="bi bi-chevron-right"></i>'
+        ]
+    });
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -120,7 +131,7 @@
         smartSpeed: 1000,
         center: true,
         margin: 24,
-        dots: true,
+        dots: false,
         loop: true,
         nav : false,
         responsive: {

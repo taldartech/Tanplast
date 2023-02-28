@@ -16,7 +16,7 @@ useEffect(() => {
      const isSticky = (e) => {
           const header = document.querySelector('.navbar');
           const scrollTop = window.scrollY;
-          scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+          scrollTop >= 30 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
       };
     return(
       <>
@@ -25,9 +25,9 @@ useEffect(() => {
         <div className="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         
         <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-          <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
+          <Link to="/" className="navbar-brand ms-4 ms-lg-0">
             <img src="img/tanplast.png" height="70px"/>
-          </a>
+          </Link>
           <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon" />
           </button>
