@@ -12,7 +12,24 @@ const Header = () => {
     };
   });
 
-
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false
+      },
+      "google_translate_element"
+    );
+  };
+  useEffect(() => {
+    var addScript = document.createElement("script");
+    addScript.setAttribute(
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    );
+    document.body.appendChild(addScript);
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
   /* Method that will fix header after a specific scrollable */
   const fixedtop = (e) => {
     const header = document.querySelector('.navbar');
@@ -39,6 +56,7 @@ const Header = () => {
       <Links />
       <Javascript />
       <Topbar/>
+      
       <div className="container-fluid fixed-top py-4 px-0 wow fadeIn " data-wow-delay="0.1s">
 
         <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -54,8 +72,9 @@ const Header = () => {
               <NavLink to="/about" activeClassName="active" className="nav-item nav-link">About us</NavLink>
               <NavLink to="/business" activeClassName="active" className="nav-item nav-link">Our Products</NavLink>
               <NavLink to="/contact" activeClassName="active" className="nav-item nav-link">Contact us</NavLink>
+          
             </div>
-
+            <div id="google_translate_element"></div>
           </div>
         </nav>
       </div>
