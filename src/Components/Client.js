@@ -43,25 +43,25 @@ function Client() {
                   <img className="img-fluid rounded mx-auto mb-4" src="img/clients/pepperslogo.jpg" alt="" />
                   <p className="fs-5">
                   </p>
-                  <h5>peppers</h5>
+                  <h5>PEPPERS</h5>
                 </div>
                 <div className="client2-item text-center">
                   <img className="img-fluid rounded mx-auto mb-4" src="img/clients/papaye-logo.png" alt="" />
                   <p className="fs-5">
                   </p>
-                  <h5>papaye</h5>
+                  <h5>Papaye Fast Food</h5>
                 </div>
                 <div className="client2-item text-center">
                   <img className="img-fluid rounded mx-auto mb-4" src="img/clients/fcity_logo.png" alt="" />
                   <p className="fs-5">
                   </p>
-                  <h5>Furniture City</h5>
+                  <h5>FURNITURE CITY</h5>
                 </div>
                 <div className="client2-item text-center">
                   <img className="img-fluid rounded mx-auto mb-4" src="img/clients/fareastlogo.png" alt="" />
                   <p className="fs-5">
                   </p>
-                  <h5>Far East</h5>
+                  <h5>Fareast Mercantile Co. Ltd</h5>
                 </div>
                 <div className="client2-item text-center">
                   <img className="img-fluid rounded mx-auto mb-4" src="img/clients/electroland-ghana-ltd_logo.png" alt="" />

@@ -4,12 +4,13 @@ import Carousel from "../Carousel";
 import Services from "../Services";
 import Client from "../Client";
 import Footers from "../Footers";
+import Topbar from "../Topbar";
 
 
 function Home() {
   return (
     <>
-
+      
       <Header />
       <Carousel />
       <div className="container-xxl py-5">
@@ -20,14 +21,14 @@ function Home() {
               <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">About Us</p>
 
               <p className="mb-4"> </p>
-              <div className="row border rounded p-4">
-                <div className=" col-md-6 wow fadeInUp py-1 px-3" data-wow-delay="0.1s">
+              <div className="row rounded p-4">
+                <div className=" col-md-5 wow fadeInUp py-1 px-3" data-wow-delay="0.1s">
                   <img className="img-fluid rounded py-4 px-1" src="img/tanplast.png" style={{height:"150px"}} />
                   
 
 
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-7 border rounded p-4 ">
                   <nav>
 
                     <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">

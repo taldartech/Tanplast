@@ -7,6 +7,7 @@
     --dark: #011A41;
 }
 
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -105,7 +106,7 @@ h6,
 /*** Navbar ***/
 .fixed-top {
     transition: .5s;
-
+    top: 0;
 }
 
 .top-bar {
@@ -115,7 +116,10 @@ h6,
 }
 
 .is-sticky {
-    background-color: #FFFFFF;
+    top: 0;
+    background-color: #F5f5f5;
+    box-shadow: 0px 1px 15px ;
+    
 }
 
 .navbar .dropdown-toggle::after {
@@ -602,39 +606,45 @@ h4 h2 {
 .client2-left img,
 .client2-right img {
     position: absolute;
-    padding: 5px;
+    padding: 3px;
     border: 1px dashed var(--primary);
     border-radius: 10px;
 }
 
 .client2-left img:nth-child(1),
 .client2-right img:nth-child(3) {
-    width: 100px;
+    width: 150px;
     height: 70px;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.client2-left img:nth-child(2),
-.client2-right img:nth-child(2) {
-    width: 100px;
-    height: 60px;
-    top: 50%;
+.client2-left img:nth-child(2) {
+    width: 150px;
+    height: 70px;
+    top: 43%;
     left: 10%;
+    transform: translateY(-50%);
+}
+.client2-right img:nth-child(2) {
+    width: 220px;
+    height: 70px;
+    top: 43%;
+    left: 0%;
     transform: translateY(-50%);
 }
 
 .client2-left img:nth-child(3),
 .client2-right img:nth-child(1) {
-    width: 80px;
-    height: 50px;
-    bottom: 10%;
-    right: 10%;
+    width: 150px;
+    height: 70px;
+    bottom: 0%;
+    right: 0%;
 }
 
 .client2-carousel .owl-item img {
-    width: 200px;
+    width: 250px;
     height: 100px;
 }
 

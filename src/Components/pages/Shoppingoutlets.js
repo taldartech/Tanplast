@@ -8,12 +8,12 @@ function Shoppingoutlets() {
 
             <Header />
             <div className="container-fluid business-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-                <div className="container text-center py-5">
-                    <h1 className="display-2 mb-4 pt-5 animated slideInDown" style={{ color: "#1f2859" }}>Our <span style={{ color: "#fbb31b" }} >Businesses</span> </h1>
+                <div className="container text-start py-5">
+                    <h1 className="display-2 mb-4 pt-5 animated slideInDown" style={{ color: "#1f2859" }}>Our <span style={{ color: "#fbb31b" }} >Products</span> </h1>
                     <nav aria-label="breadcrumb animated slideInDown">
-                        <ol className="breadcrumb justify-content-center mb-0">
+                        <ol className="breadcrumb justify-content-start mb-0">
                             <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-                            <li className="breadcrumb-item"><Link to="/business">Businesses</Link></li>
+                            <li className="breadcrumb-item"><Link to="/business">Products</Link></li>
 
                             <li className="breadcrumb-item" aria-current="page" style={{ color: "#fbb31b" }} >Shopping Outlets</li>
                         </ol>
@@ -25,14 +25,14 @@ function Shoppingoutlets() {
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
-                        <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">Shopping Outlets</p>
+                        <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">SHOPPING OUTLETS</p>
 
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
                                 <img src="img/products/shoppingoutlets.jpg" className="w-100" height="220px" />
-                                <h4 >Shopping Outlets</h4>
+                                <h4 >SHOPPING OUTLETS</h4>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
