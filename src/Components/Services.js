@@ -31,8 +31,8 @@ const state={
             <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">Our Businesses</p>
             <h1 className="display-5 mb-5" />
           </div>
-          <OwlCarousel className="service-carousel" responsive={state.responsive} margin={8} autoplay={true} loop  data-wow-delay="0.3s">
-            <div className="project-item  pe-5 pb-5 ">
+          <OwlCarousel className="service-carousel shadow border rounded px-2 py-2" responsive={state.responsive} margin={8} autoplay={true} loop  data-wow-delay="0.3s">
+            <div className="project-item pe-5 pb-5 ">
               <div className="project-img  mb-5">
                 <img className="img-fluid rounded" src="img/products/WATERSACHET.jpg" alt="" style={{ height: '250px' }} />
                 <Link to="/watersachet"><i className="fa fa-link fa-3x text-primary" /></Link>

@@ -28,7 +28,7 @@ function Home() {
 
 
                 </div>
-                <div className="col-md-7 border rounded p-4 ">
+                <div className="col-md-7 border rounded shadow p-4 ">
                   <nav>
 
                     <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">

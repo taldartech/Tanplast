@@ -31,8 +31,8 @@ function Watersachet() {
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/WATERSACHET.jpg" className="w-100" height="280px" />
-                                <h4 >WATER SACHET PRODUCERS</h4>
+                                <img src="img/products/WATERSACHET.jpg" className="w-100 rounded border" height="280px" />
+                                <h4 className="pt-4">WATER SACHET PRODUCERS</h4>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
@@ -47,7 +47,7 @@ function Watersachet() {
                                     smooth, strong and free of flaws.
                                     
                                 </h4>
-                                <h4 className="">Branded And Unbranded Packing Bags<h4 className="fw-semi-bold pb-5">∙ 
+                                <h4 className="fw-bold" >Branded And Unbranded Packing Bags<h4 className="fw-semi-bold pb-5">∙ 
 Our customers have ranked us at the top of all brands
 for our strength, sturdiness and capability for holding
 water sachet for long periods of time.</h4></h4>

@@ -28,7 +28,7 @@ function About() {
             <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">Who we are</p>
 
           </div>
-          <div className="row g-4">
+          <div className="row g-4 mt-2">
             <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item rounded overflow-hidden pb-4">
 

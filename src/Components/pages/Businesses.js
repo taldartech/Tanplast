@@ -28,8 +28,8 @@ function Businesses() {
                         <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">OUR PRODUCTS</p>
 
                     </div>
-                    <div className="service-carousel" data-wow-delay="0.3s" >
-                        <div className="row g-4">
+                    <div className="service-carousel " data-wow-delay="0.3s" >
+                        <div className="row g-4 shadow py-2 px-2">
                        
                             <div className="project-item col-md-4 col-lg-4 pe-5 pb-5 ">
                                 <div className="project-img mb-5">

@@ -31,8 +31,8 @@ function Foodbeverage() {
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/FOOD&BEVERAGE.jpg" className="w-100" height="220px" />
-                                <h4 >FOOD & BEVERAGE PLANT</h4>
+                                <img src="img/products/FOOD&BEVERAGE.jpg" className="w-100 rounded border" height="220px" />
+                                <h4 className="pt-4">FOOD & BEVERAGE PLANT</h4>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">

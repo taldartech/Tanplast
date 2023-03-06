@@ -31,8 +31,8 @@ function Shoppingoutlets() {
                     <div className="row">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/shoppingoutlets.jpg" className="w-100" height="220px" />
-                                <h4 >SHOPPING OUTLETS</h4>
+                                <img src="img/products/shoppingoutlets.jpg" className="w-100 rounded border" height="220px" />
+                                <h4 className="pt-4">SHOPPING OUTLETS</h4>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">

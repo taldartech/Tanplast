@@ -31,8 +31,8 @@ function Industrial() {
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" className="w-75" height="220px" />
-                                <h4 >INDUSTRIAL CONSUMERS</h4>
+                                <img src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" className="w-75 rounded border" height="220px" />
+                                <h4 className="pt-4">INDUSTRIAL CONSUMERS</h4>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">

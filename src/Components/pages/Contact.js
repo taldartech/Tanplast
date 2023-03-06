@@ -91,16 +91,16 @@ return(
                 <div className="row">
                     <h2 className="text-start pb-3">Contact us</h2>
                     <div className="col-md-6 text-start">
-                    <div className="pb-2"><h5 className="fw-bold">ADDRESS</h5> <h4 className="fw-semi-bold">8,Kwatsons Warehouse,Printex Junction,Spintex Road,Accra</h4></div>
+                    <div className="pb-2"><h5 className="fw-bold"><i className="fa fa-map-marker-alt text-primary me-2" />ADDRESS</h5> <h4 className="fw-semi-bold">8,Kwatsons Warehouse,Printex Junction,Spintex Road,Accra</h4></div>
                     <div className="pb-2"><h5 className="fw-bold">GHANA POST GPS</h5> <h4 className="fw-semi-bold"> GT-335-3131</h4></div>
-                    <div className="pb-2"><h5 className="fw-bold">Email : </h5> <h4 className="fw-semi-bold">tanplastghana10@gmail.com</h4></div>
+                    <div className="pb-2"><h5 className="fw-bold"><i className="fa fa-envelope text-primary me-2" />Email</h5> <h4 className="fw-semi-bold">tanplastghana10@gmail.com</h4></div>
                     </div>
                 
                 <div className="text-end col-md-6">
-                    <h5 className="fw-bold">TELEPHONE NUMBERS</h5>
+                    <h5 className="fw-bold"><i className="fa fa-phone-alt text-primary me-2" />TELEPHONE NUMBERS</h5>
                     <h4 className="fw-semi-bold">+233577774555</h4>
-                    <h4 className="fw-semi-bold"> +233558396372</h4>
-                    <h4 className="fw-semi-bold"> +233573555150</h4>
+                    <h4 className="fw-semi-bold">+233558396372</h4>
+                    <h4 className="fw-semi-bold">+233573555150</h4>
                     
                 </div>
                 </div>
