@@ -23,7 +23,7 @@ body {
     .goog-logo-link {
         display:none !important;
     } 
-        
+    
     .goog-te-gadget {
     
         color: transparent !important;
@@ -124,6 +124,8 @@ h6,
     justify-content: center;
     font-weight: normal;
 }
+/** google translate element**/
+
 
 
 /*** Navbar ***/
@@ -133,12 +135,16 @@ h6,
     
 }
 
+
 .top-bar {
     height: 45px;
     border-bottom: 1px solid rgba(53, 94, 252, .07);
+}
+@media (max-width:998px){
+    .top-bar{
+        display: none;
+    }
     
-
-
 }
 
 .is-sticky {
@@ -146,6 +152,14 @@ h6,
     background-color: #F5f5f5;
     box-shadow: 0px 1px 15px ;
     
+}
+.nav-pad{
+    padding-top:35px;
+}
+@media(max-width:992px){
+.nav-pad{
+    padding-top: 0;
+}
 }
 
 .navbar .dropdown-toggle::after {
@@ -391,6 +405,7 @@ h4 h2 {
     left: 3rem;
     border: 1px solid var(--light);
     border-radius: 8px;
+    
     display: flex;
     align-items: flex-end;
     padding: 18px;
@@ -405,6 +420,7 @@ h4 h2 {
 
 .project-item .project-title h4 {
     transition: .5s;
+    color: #fbb31b;
 }
 
 .project-item:hover .project-title h4 {
@@ -421,7 +437,7 @@ h4 h2 {
 .project-carousel .owl-nav .owl-next {
     margin: 0 12px;
     width: 45px;
-    height: 45px;
+    height: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -640,31 +656,31 @@ h4 h2 {
 
 .client2-left img:nth-child(1),
 .client2-right img:nth-child(3) {
-    width: 150px;
+    width: 220px;
     height: 70px;
     top: 10%;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
 }
 
 .client2-left img:nth-child(2) {
-    width: 150px;
+    width: 220px;
     height: 70px;
-    top: 43%;
-    left: 10%;
+    top: 41%;
+    left: 40%;
     transform: translateY(-50%);
 }
 .client2-right img:nth-child(2) {
     width: 220px;
     height: 70px;
-    top: 43%;
-    left: 0%;
+    top: 41%;
+    right: 40%;
     transform: translateY(-50%);
 }
 
 .client2-left img:nth-child(3),
 .client2-right img:nth-child(1) {
-    width: 150px;
+    width: 220px;
     height: 70px;
     bottom: 0%;
     right: 0%;

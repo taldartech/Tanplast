@@ -47,8 +47,7 @@ function Watersachet() {
                                     smooth, strong and free of flaws.
                                     
                                 </h4>
-                                <h4 className="fw-bold" >Branded And Unbranded Packing Bags<h4 className="fw-semi-bold pb-5">∙ 
-Our customers have ranked us at the top of all brands
+                                <h4 className="fw-bold" >Branded And Unbranded Packing Bags<h4 className="fw-semi-bold pb-5">Our customers have ranked us at the top of all brands
 for our strength, sturdiness and capability for holding
 water sachet for long periods of time.</h4></h4>
 

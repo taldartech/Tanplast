@@ -19,6 +19,7 @@ const Header = () => {
       window.removeEventListener('scroll', isSticky);
     };
   });
+  /*Google TRanslate Method */
   useEffect(() => {
     var addScript = document.createElement("script");
     addScript.setAttribute(
@@ -28,6 +29,20 @@ const Header = () => {
     document.body.appendChild(addScript);
     window.googleTranslateElementInit = googleTranslateElementInit;
   }, []);
+  //ends
+
+    /* method to google translate  remove duplicate occurance*/
+    var duplicate_google_translate_counter = 0;//this stops google adding button multiple times
+
+    function googleTranslateElementInit() {
+       if (duplicate_google_translate_counter == 0) {
+          new window.google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false,layout: window.google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+          includedLanguages: 'en,fr,'}, 'google_translate_element');
+       }
+       duplicate_google_translate_counter++;
+    }
+    //ends
+    
   /* Method that will fix header after a specific scrollable */
   const fixedtop = (e) => {
     const header = document.querySelector('.navbar');
@@ -41,32 +56,26 @@ const Header = () => {
     const scrollTop = window.scrollY;
     scrollTop >= 50 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
   };
-  
-  /* method to google translate  */
-  var duplicate_google_translate_counter = 0;//this stops google adding button multiple times
+//ends  
 
-  function googleTranslateElementInit() {
-     if (duplicate_google_translate_counter == 0) {
-        new window.google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false,layout: window.google.translate.TranslateElement.InlineLayout.HORIZONTAL,
-        includedLanguages: 'en,fr,'}, 'google_translate_element');
-     }
-     duplicate_google_translate_counter++;
-  }
-  
-  
+  //Scroll to top
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+    //ends
   return (
     <>
       <Links />
       <Javascript />
       <Topbar/>
       
-      <div className="container-fluid py-5 fixed-top px-0 wow fadeIn " data-wow-delay="0.1s">
+      <div className="container-fluid fixed-top px-0 wow fadeIn nav-pad" data-wow-delay="0.1s" >
 
         <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
           <Link to="/" className="navbar-brand ms-4 ms-lg-0">
             <img src="img/tanplast.png" height="60px" />
           </Link>
-          <span id="google_translate_element"></span>
+          
           <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon" />
           </button>
@@ -76,7 +85,7 @@ const Header = () => {
               <NavLink to="/about" activeClassName="active" className="nav-item nav-link">About us</NavLink>
               <NavLink to="/business" activeClassName="active" className="nav-item nav-link">Our Products</NavLink>
               <NavLink to="/contact" activeClassName="active" className="nav-item nav-link">Contact us</NavLink>
-          
+              <span id="google_translate_element" className=" nav-link"></span>
             </div>
             
           </div>
