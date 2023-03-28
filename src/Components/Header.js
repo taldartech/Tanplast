@@ -63,6 +63,9 @@ const Header = () => {
       window.scrollTo(0, 0)
     }, [])
     //ends
+
+  //select option name
+  
   return (
     <>
       <Links />
@@ -85,7 +88,9 @@ const Header = () => {
               <NavLink to="/about" activeClassName="active" className="nav-item nav-link">About us</NavLink>
               <NavLink to="/business" activeClassName="active" className="nav-item nav-link">Our Products</NavLink>
               <NavLink to="/contact" activeClassName="active" className="nav-item nav-link">Contact us</NavLink>
-              <span id="google_translate_element" className=" nav-link"></span>
+              <span id="google_translate_element" className=" nav-link">
+
+              </span>
             </div>
             
           </div>

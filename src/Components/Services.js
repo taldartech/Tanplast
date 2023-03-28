@@ -25,14 +25,14 @@ const state={
 }
   return (
     <> {/* Service Start */}
-      <div className="container-fluid rounded border py-5 bg-dark footer">
-        <div className="container-fluid " >
+      <div className="container-xxl rounded border py-5 bg-dark footer">
+        <div className="container " >
           <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
             <p className="d-inline-block border rounded fw-bold py-1 px-3" style={{color:"#fbb31b"}}>Our Products</p>
             <h1 className="display-5 mb-5" />
           </div>
           <OwlCarousel className="service-carousel rounded px-2 py-2" responsive={state.responsive} margin={8} autoplay={true} loop  data-wow-delay="0.3s">
-            <div className="project-item pe-5 pb-5 ">
+            <div className="project-item pe-5 pb-5 mx-2">
               <div className="project-img  mb-5">
                 <img className="img-fluid rounded" src="img/products/WATERSACHET.jpg" alt="" style={{ height: '300px' }} />
                 <Link to="/watersachet"><i className="fa fa-link fa-3x text-primary" /></Link>
@@ -41,7 +41,7 @@ const state={
                 <h4 className="mb-0 " >WATER SACHET PRODUCERS</h4>
               </div>
             </div>
-            <div className="project-item pe-5 pb-5">
+            <div className="project-item pe-5 pb-5 mx-2">
               <div className="project-img mb-5">
                 <img className="img-fluid rounded" src="img/products/shoppingoutlets.jpg" alt="" style={{ height: '300px' }} />
                 <Link to="shoppingoutlets"><i className="fa fa-link fa-3x text-primary" /></Link>
@@ -50,7 +50,7 @@ const state={
                 <h4 className="mb-0 ">SHOPPING OUTLETS</h4>
               </div>
             </div>
-            <div className="project-item pe-5 pb-5">
+            <div className="project-item pe-5 pb-5 mx-2">
               <div className="project-img mb-5">
                 <img className="img-fluid rounded" src="img/products/black-pallet-wrap-1.jpg" alt="" style={{ height: '300px' }} />
                 <Link to="/construction"><i className="fa fa-link fa-3x text-primary" /></Link>
@@ -59,7 +59,7 @@ const state={
                 <h4 className="mb-0">CONSTRUCTION INDUSTRY</h4>
               </div>
             </div>
-            <div className="project-item pe-5 pb-5">
+            <div className="project-item pe-5 pb-5 mx-2">
               <div className="project-img mb-5">
                 <img className="img-fluid rounded" src="img/products/FOOD&BEVERAGE.jpg" alt="" style={{ height: '300px' }} />
                 <Link to="/fandb"><i className="fa fa-link fa-3x text-primary" /></Link>
@@ -68,9 +68,9 @@ const state={
                 <h4 className="mb-0">FOOD &amp; BEVERAGE PLANTS</h4>
               </div>
             </div>
-            <div className="project-item pe-5 pb-5">
+            <div className="project-item pe-5 pb-5 mx-2">
               <div className="project-img mb-5">
-                <img className="img-fluid rounded" src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" alt="" style={{ height: '300px' }} />
+                <img className="img-fluid rounded" src="img/products/industrialnew.png" alt="" style={{ height: '300px' }} />
                 <Link to="/industrial"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title">

@@ -28,11 +28,12 @@ function Foodbeverage() {
                         <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3">FOOD & BEVERAGE PLANT</p>
 
                     </div>
-                    <div className="row g-4">
+                    <div className="row">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/FOOD&BEVERAGE.jpg" className="w-100 rounded border" height="220px" />
-                                <h4 className="pt-4">FOOD & BEVERAGE PLANT</h4>
+                                <img src="img/products/FOOD&BEVERAGE.jpg" className="my-2 w-100 rounded border" height="220px" />
+                                <img src="img/tanplast_images/Food_n_beverage/7.jpg" className="my-2 w-100 rounded border" height="220px" />
+                              
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">

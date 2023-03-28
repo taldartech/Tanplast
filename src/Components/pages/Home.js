@@ -18,7 +18,7 @@ function Home() {
           <div className="row g-4 align-items-end mb-">
 
             <div className="text-center  wow fadeInUp" data-wow-delay="0.3s">
-              <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3 ">About Us</p>
+              <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3 "style={{marginRight:"70px"}}>About Us</p>
 
               <p className="mb-4"> </p>
               <div className="row rounded p-4">
@@ -64,11 +64,11 @@ function Home() {
                   <div class="h-100">
                     <div class="d-flex">
                       <div class="flex-shrink-0 btn-lg-square rounded-circle bg-dark">
-                        <i class="fa fa-shipping-fast" style={{color:"#fbb31b"}}></i>
+                        <i class="fa fa-tint" style={{color:"#fbb31b"}}></i>
                       </div>
-                      <div class="ps-3">
-                        <h4>Free delivery</h4>
-                        <span>Free delivery all over ghana and accra</span>
+                      <div class="ps-3 px-3">
+                        <h4>Water Proof</h4>
+                        <span>Free from any leaks and damage</span>
                       </div>
                       <div class="border-end d-none d-lg-block"></div>
                     </div>
@@ -79,11 +79,11 @@ function Home() {
                   <div class="h-100">
                     <div class="d-flex">
                       <div class="flex-shrink-0 btn-lg-square rounded-circle bg-dark">
-                        <i class="fa fa-wallet " style={{color:"#fbb31b"}}></i>
+                        <i class="fa fa-star " style={{color:"#fbb31b"}}></i>
                       </div>
-                      <div class="ps-3">
-                        <h4>Cash on Delivery</h4>
-                        <span>Pay Cash at your doorstep on delivery </span>
+                      <div class="ps-3 px-3 ">
+                        <h4>Durability</h4>
+                        <span>Durable in tough conditions and extreme climate</span>
                       </div>
                       <div class="border-end d-none d-lg-block"></div>
                     </div>

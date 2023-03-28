@@ -31,8 +31,10 @@ function Watersachet() {
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/WATERSACHET.jpg" className="w-100 rounded border" height="280px" />
-                                <h4 className="pt-4">WATER SACHET PRODUCERS</h4>
+                                <img src="img/products/WATERSACHET.jpg" className="my-2 w-100 rounded border" height="220px" />
+                               
+                                <img src="img/tanplast_images/Watersachet/1.jpg" className="my-2 w-100 rounded border" height="220px" />
+                                <img src="img/tanplast_images/Watersachet/3.jpg" className="my-2 w-100 rounded border" height="220px" />
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
@@ -40,13 +42,13 @@ function Watersachet() {
 
                                 <h2 className="pb-3" style={{color: "#fbb31b"}}>Description:</h2>
                                 <h4 className="fw-semi-bold pb-5">We cater to the growing demand for water sachet
-                                    producers. Our wide range of products includes:</h4>
+                                    producers. Our wide range of products includes:</h4><br/><br/>
                                 <h4 className="fw-bold">Printed Rolls For Production Of Water Sachet</h4>
                                     <h4 className="fw-semi-bold pb-5">cellulose rolls are the best in the market. We use only
                                     the finest raw materials, which results in rolls that are
                                     smooth, strong and free of flaws.
                                     
-                                </h4>
+                                </h4><br/><br/>
                                 <h4 className="fw-bold" >Branded And Unbranded Packing Bags<h4 className="fw-semi-bold pb-5">Our customers have ranked us at the top of all brands
 for our strength, sturdiness and capability for holding
 water sachet for long periods of time.</h4></h4>

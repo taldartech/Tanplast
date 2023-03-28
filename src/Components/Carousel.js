@@ -20,19 +20,62 @@ function Carousel(){
                 </div>
               </div>
             </div>
+            
             <div className="carousel-item">
-              <img className="w-100" src="img/canva/carousel2.png" alt="Image" height="600px" />
+              <img className="w-100" src="img/carousel/carousel2.png" alt="Image" height="600px" />
               <div className="carousel-caption">
                 <div className="container">
                   <div className="row justify-content-start">
                     <div className="col-lg-7">
                       
                       <h1 className="display-1 mb-4 animated slideInDown">Packaging Solutions</h1>
-                      <Link to="/about" className="btn btn-primary py-3 px-5 animated slideInDown" style={{backgroundColor:"#1f2859"}}>About us</Link>
                     </div>
                   </div>
                 </div>
               </div>
+              
+            </div> <div className="carousel-item">
+              <img className="w-100" src="img/carousel/carousel3.png" alt="Image" height="600px" />
+              <div className="carousel-caption">
+                <div className="container">
+                  <div className="row justify-content-start">
+                    <div className="col-lg-7">
+                      
+                      <h1 className="display-1 mb-4 animated slideInDown">Industrial Solutions</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div className="carousel-item " >
+              <img className="w-100" src="img/carousel/recycle.png" alt="Image" height="600px"  />
+              <div className="carousel-caption">
+                <div className="container">
+                  <div className="row justify-content-start">
+                    <div className="col-lg-7">
+                      
+                      <h1 className="display-1 mb-4 animated slideInDown">Environment Friendly</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div className="carousel-item">
+              <img className="w-100" src="img/carousel/carousel4.png" alt="Image" height="600px" />
+              <div className="carousel-caption">
+                <div className="container">
+                  <div className="row justify-content-start">
+                    <div className="col-lg-7">
+                      
+                      <h1 className="display-1 mb-4 animated slideInDown">Recycled Products</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">

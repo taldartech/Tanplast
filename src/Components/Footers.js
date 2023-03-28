@@ -8,7 +8,7 @@ function Footers() {
   return (
     <>
       <div>
-        <div className="container-fluid bg-dark text-light footer mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div className="container-fluid bg-dark text-light footer mt-5 wow fadeIn" data-wow-delay="0.1s" >
           <div className="container py-5">
             <div className="row g-5">
               <div className="col-lg-4 col-md-6">
@@ -29,7 +29,7 @@ function Footers() {
                 <Link className="btn btn-link" to="/construction">Construction Industry</Link>
                 <Link className="btn btn-link" to="/fandb">Food & Beverage Plant</Link>
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-2 col-md-6">
                 <h4 className="text-white mb-4">Quick Links</h4>
                 <Link className="btn btn-link" to="/">Home</Link>
                 <Link className="btn btn-link" to="/about">About Us</Link>
@@ -37,10 +37,10 @@ function Footers() {
                 <Link className="btn btn-link" to="/contact">Contact Us</Link>
 
               </div>
-              <div className="col-lg-2 col-md-6">
-                <h4 className="text-white mb-4">Useful Links</h4>
+              <div className="col-lg-3 col-md-6">
+                <h4 className="text-white mb-4">Our Promoters</h4>
                 <p />
-                <Link className="btn btn-link" to="/">SBL</Link>
+                <Link className="btn btn-link" target="_blank" to="https://sblelectronics.com/">SBL</Link>
               </div>
               {/* Copyright Start */}
 
@@ -56,7 +56,7 @@ function Footers() {
         {/* Footer End */}
 
         {/* Back to Top */}
-        <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style={{backgroundColor:"#1f2859"}}><i className="bi bi-arrow-up" /></a>
+        <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style={{backgroundColor:"#fbb31b"}}><i className="bi bi-arrow-up" /></a>
       </div>
     </>
   )
