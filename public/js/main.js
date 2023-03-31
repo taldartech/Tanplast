@@ -32,7 +32,10 @@
             }
         }
     });
-    
+    //thumbnail images
+    $('a.thumbnail').onClick(function () {
+        $('#productImage').attr('src',$(this).children('img').attr('src').replace('60/60','400/200'));
+    })
     
     // Back to top button
     $(window).scroll(function () {

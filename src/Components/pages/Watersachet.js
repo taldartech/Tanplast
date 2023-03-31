@@ -2,7 +2,9 @@ import Header from "../Header";
 import Footers from "../Footers";
 import { Link } from "react-router-dom";
 import Client from "../Client";
+import { useEffect } from "react";
 function Watersachet() {
+
     return (
         <>
 
@@ -30,28 +32,94 @@ function Watersachet() {
                     </div>
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                            <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/WATERSACHET.jpg" className="my-2 w-100 rounded border" height="220px" />
-                               
-                                <img src="img/tanplast_images/Watersachet/1.jpg" className="my-2 w-100 rounded border" height="220px" />
-                                <img src="img/tanplast_images/Watersachet/3.jpg" className="my-2 w-100 rounded border" height="220px" />
+                            <div className="team-item text-center  rounded overflow-hidden pb-4">
+                                <div id="custCarousel" className="carousel slide" data-ride="carousel" align="center">
+
+                                    <div className="carousel-inner border">
+                                        <div className="carousel-item active">
+                                            <img src="img/tanplast_images/Watersachet/1.jpg" alt="water sachet" className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Watersachet/2.png" alt="water sachet" className="mainImage w-100" />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Watersachet/3.png" alt="water sachet" className="mainImage w-100"  />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Watersachet/4.jpg" alt="water sachet" className="mainImage w-100" />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Watersachet/5.jpg" alt="water sachet" className="mainImage w-100" />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Watersachet/6.jpg" alt="water sachet" className="mainImage w-100" />
+                                        </div>
+                                    </div>
+
+
+        
+
+
+                                    <ol className="carousel-indicators list-inline">
+                                        <li className="list-inline-item active">
+                                            <a id="carousel-selector-0" className="selected" data-slide-to="0" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/1.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/2.png" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/3.png" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/4.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/5.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/6.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item rounded overflow-hidden pb-4">
 
-                                <h2 className="pb-3" style={{color: "#fbb31b"}}>Description:</h2>
-                                <h4 className="fw-semi-bold pb-5">We cater to the growing demand for water sachet
-                                    producers. Our wide range of products includes:</h4><br/><br/>
+                                <h2 className="pb-3" style={{ color: "#fbb31b" }}>Description:</h2>
+                                <h4 className="">We cater to the growing demand for water sachet
+                                    producers. </h4><h5>Our wide range of products includes:</h5><br/>
                                 <h4 className="fw-bold">Printed Rolls For Production Of Water Sachet</h4>
-                                    <h4 className="fw-semi-bold pb-5">cellulose rolls are the best in the market. We use only
+                                <h5 className="">cellulose rolls are the best in the market. We use only
                                     the finest raw materials, which results in rolls that are
                                     smooth, strong and free of flaws.
-                                    
-                                </h4><br/><br/>
-                                <h4 className="fw-bold" >Branded And Unbranded Packing Bags<h4 className="fw-semi-bold pb-5">Our customers have ranked us at the top of all brands
-for our strength, sturdiness and capability for holding
-water sachet for long periods of time.</h4></h4>
+
+                                </h5>
+                                <h4 className="fw-bold" >Branded And Unbranded Packing Bags</h4><h5>Our customers have ranked us at the top of all brands
+                                    for our strength, sturdiness and capability for holding
+                                    water sachet for long periods of time.</h5>
 
 
 
@@ -62,7 +130,7 @@ water sachet for long periods of time.</h4></h4>
                 </div>
 
             </div>
-         
+
             <Footers />
         </>
     )

@@ -31,20 +31,92 @@ function Industrial() {
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" className="my-2 w-100 rounded border" height="220px" />
-                                
-                                 <img src="img/tanplast_images/Industrial/1.jpg" className="w-100 rounded border my-2" height="180px" />
+                                <div id="custCarousel" className="carousel slide" data-ride="carousel" align="center">
+
+                                    <div className="carousel-inner border">
+                                        <div className="carousel-item active">
+                                            <img src="img/tanplast_images/Industrial/1.jpg" alt="Industrial Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Industrial/2.jpg" alt="Industrial Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Industrial/3.jpg" alt="Industrial Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Industrial/4.jpg" alt="Industrial Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Industrial/5.jpg" alt="Industrial Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Industrial/6.jpg" alt="Industrial Outlet"className="mainImage w-100 " />
+                                        </div>
+
+
+                                    </div>
+
+
+
+
+
+                                    <ol className="carousel-indicators list-inline" id="custCarouselthumb">
+                                        <li className="list-inline-item active">
+                                            <a id="carousel-selector-0" className="selected" data-slide-to="0" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Industrial/1.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Industrial/2.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Industrial/3.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Industrial/4.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Industrial/5.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Industrial/6.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+
+                                    </ol>
+
+                                </div>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item rounded overflow-hidden pb-4">
 
-                                <h2 className="pb-3 pt-3" style={{color: "#fbb31b"}}> Description:</h2>
+                                <h2 className="pb-3 pt-3" style={{ color: "#fbb31b" }}> Description:</h2>
                                 <h4 className="fw-semi-bold pb-5">We offer our customers a cost-saving alternative to
-corrugated packaging with plastic film. Our plastic film
-can be used to wrap your products, making it possible
-for you to reduce your production costs.</h4>
-                               
+                                    corrugated packaging with plastic film. Our plastic film
+                                    can be used to wrap your products, making it possible
+                                    for you to reduce your production costs.</h4>
+
 
 
                             </div>
@@ -54,7 +126,7 @@ for you to reduce your production costs.</h4>
                 </div>
 
             </div>
-           
+
             <Footers />
         </>
     )

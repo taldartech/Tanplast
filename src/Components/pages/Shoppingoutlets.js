@@ -31,21 +31,93 @@ function Shoppingoutlets() {
                     <div className="row">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/shoppingoutlets.jpg" className="my-2 w-100 rounded border" height="180px" />
-                
-                                <img src="img/tanplast_images/Shopping/13.jpg" className="my-2 w-100 rounded border" height="220px" />
+                                <div id="custCarousel" className="carousel slide" data-ride="carousel" align="center">
+
+                                    <div className="carousel-inner border">
+                                        <div className="carousel-item active">
+                                            <img src="img/tanplast_images/Shopping/1.jpg" alt="Shopping Outlet" className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Shopping/2.jpg" alt="Shopping Outlet" className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Shopping/3.jpg" alt="Shopping Outlet" className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Shopping/4.jpg" alt="Shopping Outlet" className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Shopping/5.jpg" alt="Shopping Outlet" className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Shopping/6.jpg" alt="Shopping Outlet" className="mainImage w-100 " />
+                                        </div>
+
+
+                                    </div>
+
+
+
+
+
+                                    <ol className="carousel-indicators list-inline" id="custCarouselthumb">
+                                        <li className="list-inline-item active">
+                                            <a id="carousel-selector-0" className="selected" data-slide-to="0" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Shopping/1.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Shopping/2.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Shopping/3.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Shopping/4.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Shopping/5.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Shopping/6.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+
+                                    </ol>
+                                    
+                                </div>
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item rounded overflow-hidden pb-4">
 
-                                <h2 className="pb-3 pt-5" style={{color: "#fbb31b"}}> Description:</h2>
-                                
-                                    <h4 className="fw-semi-bold pb-5">We do customised shopping bags for retail outlets. Our
-specialty is strong, durable and reusable branded
-shopping bags. We have worked with PAPAYE, UCT,
-FURNITURE CITY, NEW PEPPERS MULTICUISINE and many
-other well-known brands.
+                                <h2 className="pb-3 pt-5" style={{ color: "#fbb31b" }}> Description:</h2>
+
+                                <h4 className="fw-semi-bold pb-5">We do customised shopping bags for retail outlets. Our
+                                    specialty is strong, durable and reusable branded
+                                    shopping bags. We have worked with PAPAYE, UCT,
+                                    FURNITURE CITY, NEW PEPPERS MULTICUISINE and many
+                                    other well-known brands.
 
                                 </h4>
 
@@ -57,7 +129,7 @@ other well-known brands.
                 </div>
 
             </div>
-          
+
             <Footers />
         </>
     )

@@ -69,7 +69,7 @@ function Businesses() {
                             </div>
                             <div className="project-item col-md-4 col-lg-4 pe-5 pb-5">
                                 <div className="project-img mb-5 ">
-                                    <img className="img-fluid rounded w-100" src="img/products/shrink-film-rolls-250-mm-to-800mm-.jpg" alt="" style={{ height: '250px' }} />
+                                    <img className="img-fluid rounded w-100" src="img/products/industrialnew.png" alt="" style={{ height: '250px' }} />
                                     <Link to="/industrial"><i className="fa fa-link fa-3x text-primary" /></Link>
                                 </div>
                                 <div className="project-title">

@@ -31,20 +31,93 @@ function Foodbeverage() {
                     <div className="row">
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item text-center rounded overflow-hidden pb-4">
-                                <img src="img/products/FOOD&BEVERAGE.jpg" className="my-2 w-100 rounded border" height="220px" />
-                                <img src="img/tanplast_images/Food_n_beverage/7.jpg" className="my-2 w-100 rounded border" height="220px" />
-                              
+                                <div id="custCarousel" className="carousel slide" data-ride="carousel" align="center">
+
+                                    <div className="carousel-inner border">
+                                        <div className="carousel-item active">
+                                            <img src="img/tanplast_images/Food_n_beverage/1.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Food_n_beverage/2.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Food_n_beverage/3.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Food_n_beverage/4.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Food_n_beverage/5.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                        </div>
+
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Food_n_beverage/6.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                        </div>
+
+
+                                    </div>
+
+
+
+
+
+                                    <ol className="carousel-indicators list-inline" id="custCarouselthumb">
+                                        <li className="list-inline-item active">
+                                            <a id="carousel-selector-0" className="selected" data-slide-to="0" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Food_n_beverage/1.jpg" className="img-fluid thumb " />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Food_n_beverage/2.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Food_n_beverage/3.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Food_n_beverage/4.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Food_n_beverage/5.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Food_n_beverage/6.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+
+                                    </ol>
+
+                                </div>
+
                             </div>
                         </div>
                         <div className="offset-1 col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item rounded overflow-hidden pb-4">
 
-                                <h2 className="pb-3 pt-5" style={{color: "#fbb31b"}}> Description:</h2>
+                                <h2 className="pb-3 pt-5" style={{ color: "#fbb31b" }}> Description:</h2>
                                 <h4 className="fw-semi-bold pb-5">Our specialty in this range is shrink wrap film for packing
-beverages. For packing food items, we can create
-attractive and innovative designs that make products
-stand out.</h4>
-                               
+                                    beverages. For packing food items, we can create
+                                    attractive and innovative designs that make products
+                                    stand out.</h4>
+
 
 
                             </div>
@@ -54,7 +127,7 @@ stand out.</h4>
                 </div>
 
             </div>
-           
+
             <Footers />
         </>
     )

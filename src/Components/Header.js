@@ -83,7 +83,7 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav ms-auto p-4 p-lg-0">
+            <div className="navbar-nav ms-auto ">
               <NavLink to="/" activeClassName="active" className="nav-item nav-link">Home</NavLink>
               <NavLink to="/about" activeClassName="active" className="nav-item nav-link">About us</NavLink>
               <NavLink to="/business" activeClassName="active" className="nav-item nav-link">Our Products</NavLink>
