@@ -40,16 +40,16 @@ function Home() {
                     <div className="tab-pane fade show active" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab">
                     </div>
                     <div className="tab-pane fade show active text-start" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
-                      <p>Tanplast Ghana Limited is committed to providing quality
+                      <h5 className="fw-light">Tanplast Ghana Limited is committed to providing quality
                         packaging solutions to all industries and stakeholders, and it
                         dutifully complies with industry-standardized systems in order
-                        to ensure the safety of people and the environment.</p>
+                        to ensure the safety of people and the environment.</h5>
                     </div>
                     <div className="tab-pane fade text-start" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
-                      <p>To be the most refined and sought-after manufacturer in the
+                      <h5 className="fw-light">To be the most refined and sought-after manufacturer in the
                         plastic packaging industry by using highly standardized
                         systems, state-of-the-art technology and equipment, and
-                        innovative solutions that will satisfy our clients' needs</p>
+                        innovative solutions that will satisfy our clients' needs</h5>
                     </div>
                   </div>
 
@@ -68,7 +68,7 @@ function Home() {
                     </div>
                     <div class="ps-3 px-3">
                       <h4>Water Proof</h4>
-                      <span>Free from any leakage and damages</span>
+                      <h5 style={{fontSize:"15px"}}>Free from any leakage and damages</h5>
                     </div>
                     <div class="border-end d-none d-lg-block"></div>
                   </div>
@@ -83,7 +83,7 @@ function Home() {
                     </div>
                     <div class="ps-3 px-3 ">
                       <h4>Durability</h4>
-                      <span>Durable in tough conditions and extreme climate</span>
+                      <h5 style={{fontSize:"15px"}}> Durable in tough conditions and extreme climate</h5>
                     </div>
                     <div class="border-end d-none d-lg-block"></div>
                   </div>
@@ -98,7 +98,7 @@ function Home() {
                     </div>
                     <div class="ps-3">
                       <h4>High Quality</h4>
-                      <span>High Quality Products, Certified and guaranteed</span>
+                      <h5 style={{fontSize:"15px"}}>High Quality Products, Certified and guaranteed</h5>
                     </div>
                   </div>
                 </div>

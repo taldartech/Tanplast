@@ -9,6 +9,7 @@ function Businesses() {
 
             <Header />
             <div className="container-fluid business-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+           
                 <div className="container text-start py-5">
                     <h1 className="display-2 mb-4 pt-5 animated slideInDown" style={{ color: "#1f2859" }}>Our <span style={{ color: "#fbb31b" }} >Products</span> </h1>
                     <nav aria-label="breadcrumb animated slideInDown">
@@ -18,7 +19,9 @@ function Businesses() {
                             <li className="breadcrumb-item" aria-current="page" style={{ color: "#fbb31b" }} >Our Products</li>
                         </ol>
                     </nav>
+
                 </div>
+               
             </div>
 
 
@@ -30,7 +33,7 @@ function Businesses() {
                     </div>
                     <div className="service-carousel " data-wow-delay="0.3s" >
                         <div className="row g-4 py-2 px-2">
-                       
+
                             <div className="project-item col-md-4 col-lg-4 pe-5 pb-5 ">
                                 <div className="project-img mb-5">
                                     <img className="img-fluid rounded w-100" src="img/products/WATERSACHET.jpg" alt="" style={{ height: '250px' }} />
@@ -81,7 +84,7 @@ function Businesses() {
                     </div>
                 </div>
             </div>
-            
+
             <Footers />
         </>
     )

@@ -65,7 +65,7 @@ function Shoppingoutlets() {
 
 
 
-                                    <ol className="carousel-indicators list-inline" id="custCarouselthumb">
+                                    <ol className="carousel-indicators list-inline mt-2" id="custCarouselthumb">
                                         <li className="list-inline-item active">
                                             <a id="carousel-selector-0" className="selected" data-slide-to="0" data-target="#custCarousel">
                                                 <img src="img/tanplast_images/Shopping/1.jpg" className="img-fluid thumb" />
