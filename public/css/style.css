@@ -38,7 +38,7 @@
 
 #custCarousel .carousel-indicators {
   position: static;
-  margin-top:20px;
+  
 }
 
 #custCarousel .carousel-indicators > li {
@@ -184,7 +184,7 @@ h6,
 
 
 .top-bar {
-    height: 45px;
+    height: 40px;
     border-bottom: 1px solid rgba(53, 94, 252, .07);
 }
 @media (max-width:998px){
@@ -298,9 +298,9 @@ h6,
 }
 @media (min-width: 768px) {
     #header-carousel .carousel-item {
-        margin-top: 10px;
+        
         position: relative;
-        min-height: 500px;
+        min-height: 600px;
     }
 
     #header-carousel .carousel-item img {

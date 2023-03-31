@@ -39,11 +39,7 @@ function Watersachet() {
                                         <div className="carousel-item active">
                                             <img src="img/tanplast_images/Watersachet/1.jpg" alt="water sachet" className="mainImage w-100 " />
                                         </div>
-
-                                        <div className="carousel-item">
-                                            <img src="img/tanplast_images/Watersachet/2.png" alt="water sachet" className="mainImage w-100" />
-                                        </div>
-
+                                       
                                         <div className="carousel-item">
                                             <img src="img/tanplast_images/Watersachet/3.png" alt="water sachet" className="mainImage w-100"  />
                                         </div>
@@ -58,6 +54,9 @@ function Watersachet() {
 
                                         <div className="carousel-item">
                                             <img src="img/tanplast_images/Watersachet/6.jpg" alt="water sachet" className="mainImage w-100" />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src="img/tanplast_images/Watersachet/2.png" alt="water sachet" className="mainImage w-100" />
                                         </div>
                                     </div>
 
@@ -74,31 +73,32 @@ function Watersachet() {
 
                                         <li className="list-inline-item">
                                             <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
-                                                <img src="img/tanplast_images/Watersachet/2.png" className="img-fluid thumb" />
-                                            </a>
-                                        </li>
-
-                                        <li className="list-inline-item">
-                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
                                                 <img src="img/tanplast_images/Watersachet/3.png" className="img-fluid thumb" />
                                             </a>
                                         </li>
 
                                         <li className="list-inline-item">
-                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel">
+                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
                                                 <img src="img/tanplast_images/Watersachet/4.jpg" className="img-fluid thumb" />
                                             </a>
                                         </li>
 
                                         <li className="list-inline-item">
-                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
+                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel">
                                                 <img src="img/tanplast_images/Watersachet/5.jpg" className="img-fluid thumb" />
                                             </a>
                                         </li>
 
                                         <li className="list-inline-item">
-                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
+                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
                                                 <img src="img/tanplast_images/Watersachet/6.jpg" className="img-fluid thumb" />
+                                            </a>
+                                        </li>
+
+                                        
+                                        <li className="list-inline-item">
+                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
+                                                <img src="img/tanplast_images/Watersachet/2.png" className="img-fluid thumb" />
                                             </a>
                                         </li>
                                     </ol>

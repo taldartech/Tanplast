@@ -2,18 +2,18 @@ import { Link, NavLink } from "react-router-dom";
 function Carousel() {
   return (
 
-    <div className="container-fluid p-0 py-5 my-5 mb-5 wow fadeIn" data-wow-delay="0.1s" >
+    <div className="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s" >
       <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel" >
-        <div className=" carousel-inner">
+        <div className=" carousel-inner ">
           <div className="carousel-item active" >
-            <img className="d-block w-100" src="img/carousel/banner.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner5.png" alt="Image" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
                   <div className="col-lg-8">
 
-                    <h3 className="display-1 mb-4 animated slideInDown">Welcome To Tanplast
-                    </h3>
+                    <h5 className="display-1 mb-4 animated slideInDown">Welcome To Tanplast
+                    </h5>
                     <Link to="/contact" className="btn btn-primary py-3 px-5 animated slideInDown" style={{ backgroundColor: "#1f2859" }}>Contact us</Link>
                   </div>
                 </div>
@@ -22,26 +22,26 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-            <img className="d-block w-100" src="img/carousel/recycle.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner6.png" alt="Image" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h3 className="display-1 mb-4 animated slideInDown">Recycled Products</h3>
+                    <h5 className="display-1 mb-4 animated slideInDown">Plastic Packaging</h5>
                   </div>
                 </div>
               </div>
             </div>
 
           </div> <div className="carousel-item">
-            <img className="w-100" src="img/carousel/customize.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner7.png" alt="Image" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h3 className="display-1 mb-4 animated slideInDown">Customize as your need</h3>
+                    <h5 className="display-1 mb-4 animated slideInDown text-white">Industri<span style={{color:"#fbb31b"}}>al</span> Solutio<span style={{color:"#fbb31b"}}>ns</span></h5>
                   </div>
                 </div>
               </div>
@@ -49,14 +49,14 @@ function Carousel() {
 
           </div>
 
-          <div className="carousel-item " >
-            <img className="w-100" src="img/carousel/banner2.png" alt="Image" height="400px" />
+          <div className="carousel-item">
+            <img className="w-100" src="img/carousel/banner8.png" alt="Image" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h3 className="display-1 mb-4 animated slideInDown">Packaging Solutions</h3>
+                    <h5 className="display-1 mb-4 animated slideInDown text-white">Packagin<span style={{color:"#fbb31b"}}>g</span> Manufa<span style={{color:"#fbb31b"}}>ctu</span>rers</h5>
                   </div>
                 </div>
               </div>
@@ -64,27 +64,13 @@ function Carousel() {
 
           </div>
           <div className="carousel-item">
-            <img className="w-100" src="img/carousel/banner3.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner9.png" alt="Image" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h3 className="display-1 mb-4 animated slideInDown text-white">Industrial Solutions</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div className="carousel-item">
-            <img className="w-100" src="img/carousel/banner4.png" alt="Image" height="400px" />
-            <div className="carousel-caption">
-              <div className="container">
-                <div className="row justify-content-start">
-                  <div className="col-lg-7">
-
-                    <h3 className="display-1 mb-4 animated slideInDown">Plastic Manufacturers</h3>
+                    <h5 className="display-1 mb-4 animated slideInDown text-white">Customi<span style={{color:"#fbb31b"}}>zed</span> Product<span style={{color:"#fbb31b"}}>s</span></h5>
                   </div>
                 </div>
               </div>

@@ -35,11 +35,11 @@ function Foodbeverage() {
 
                                     <div className="carousel-inner border">
                                         <div className="carousel-item active">
-                                            <img src="img/tanplast_images/Food_n_beverage/1.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                            <img src="img/tanplast_images/Food_n_beverage/5.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
                                         </div>
 
                                         <div className="carousel-item">
-                                            <img src="img/tanplast_images/Food_n_beverage/2.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                            <img src="img/tanplast_images/Food_n_beverage/6.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
                                         </div>
 
                                         <div className="carousel-item">
@@ -51,11 +51,11 @@ function Foodbeverage() {
                                         </div>
 
                                         <div className="carousel-item">
-                                            <img src="img/tanplast_images/Food_n_beverage/5.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                            <img src="img/tanplast_images/Food_n_beverage/1.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
                                         </div>
 
                                         <div className="carousel-item">
-                                            <img src="img/tanplast_images/Food_n_beverage/6.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
+                                            <img src="img/tanplast_images/Food_n_beverage/2.jpg" alt="Food_n_beverage Outlet"className="mainImage w-100 " />
                                         </div>
 
 
@@ -68,13 +68,13 @@ function Foodbeverage() {
                                     <ol className="carousel-indicators list-inline" id="custCarouselthumb">
                                         <li className="list-inline-item active">
                                             <a id="carousel-selector-0" className="selected" data-slide-to="0" data-target="#custCarousel">
-                                                <img src="img/tanplast_images/Food_n_beverage/1.jpg" className="img-fluid thumb " />
+                                                <img src="img/tanplast_images/Food_n_beverage/5.jpg" className="img-fluid thumb " />
                                             </a>
                                         </li>
 
                                         <li className="list-inline-item">
                                             <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
-                                                <img src="img/tanplast_images/Food_n_beverage/2.jpg" className="img-fluid thumb" />
+                                                <img src="img/tanplast_images/Food_n_beverage/6.jpg" className="img-fluid thumb" />
                                             </a>
                                         </li>
 
@@ -92,13 +92,13 @@ function Foodbeverage() {
 
                                         <li className="list-inline-item">
                                             <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel">
-                                                <img src="img/tanplast_images/Food_n_beverage/5.jpg" className="img-fluid thumb" />
+                                                <img src="img/tanplast_images/Food_n_beverage/1.jpg" className="img-fluid thumb" />
                                             </a>
                                         </li>
 
                                         <li className="list-inline-item">
                                             <a id="carousel-selector-5" data-slide-to="5" data-target="#custCarousel">
-                                                <img src="img/tanplast_images/Food_n_beverage/6.jpg" className="img-fluid thumb" />
+                                                <img src="img/tanplast_images/Food_n_beverage/2.jpg" className="img-fluid thumb" />
                                             </a>
                                         </li>
 

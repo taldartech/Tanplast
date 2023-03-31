@@ -13,9 +13,9 @@ function Home() {
 
       <Header />
       <Carousel />
-      <div className="container-xxl py-5">
+      <div className="container-xxl pb-5">
         <div className="container">
-          <div className="row g-4 align-items-end mb-">
+          <div className="row g-4 align-items-end">
 
             <div className="text-center  wow fadeInUp" data-wow-delay="0.3s">
               <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3 " style={{ marginRight: "70px" }}>About Us</p>
