@@ -12,7 +12,7 @@ function Footers() {
           <div className="container py-5">
             <div className="row g-5">
               <div className="col-lg-4 col-md-6">
-                <h4 className="text-white mb-4">Tanplast</h4>
+                <h4 className="text-white mb-4">Let's Connect</h4>
                 <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />8,Kwatsons Warehouse,
                   Printex Junction,Spintex Road,Accra</p>
                 <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233577774555</p>

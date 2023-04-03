@@ -41,7 +41,7 @@ function Watersachet() {
                                         </div>
                                        
                                         <div className="carousel-item">
-                                            <img src="img/tanplast_images/Watersachet/3.png" alt="water sachet" className="mainImage w-100"  />
+                                            <img src="img/tanplast_images/Watersachet/3.jpg" alt="water sachet" className="mainImage w-100"  />
                                         </div>
 
                                         <div className="carousel-item">
@@ -73,7 +73,7 @@ function Watersachet() {
 
                                         <li className="list-inline-item">
                                             <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
-                                                <img src="img/tanplast_images/Watersachet/3.png" className="img-fluid thumb" />
+                                                <img src="img/tanplast_images/Watersachet/3.jpg" className="img-fluid thumb" />
                                             </a>
                                         </li>
 
