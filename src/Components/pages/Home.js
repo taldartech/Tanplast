@@ -18,17 +18,17 @@ function Home() {
           <div className="row g-4 align-items-end">
 
             <div className="text-center  wow fadeInUp" data-wow-delay="0.3s">
-              <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3 " style={{ marginRight: "70px" }}>About Us</p>
+              <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3 " >About Us</p>
 
               <p className="mb-4"> </p>
               <div className="row rounded py-4">
-                <div className="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
+                <div className="col-md-4 col-sm-6 wow fadeInUp " data-wow-delay="0.1s">
                   <img className="img-fluid rounded w-100" src="img/about.jpg" style={{ height: "300px" }} />
 
 
 
                 </div>
-                <div className="offset-1 col-md-7 border rounded shadow p-4 ">
+                <div className="mt-2 left col-md-7 col-sm-6 border rounded shadow p-4 ">
                   <nav>
 
                     <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
@@ -58,9 +58,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <div class="container border rounded p-4 mx-2 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="container border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class=" row">
-              <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+              <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="h-100">
                   <div class="d-flex">
                     <div class="flex-shrink-0 btn-lg-square rounded-circle bg-dark">

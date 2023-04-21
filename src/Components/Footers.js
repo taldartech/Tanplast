@@ -45,7 +45,7 @@ function Footers() {
               {/* Copyright Start */}
 
               <div className="col-md-12 text-center text-md-center">
-                © <p className="border-bottom">Copyright, All Right Reserved.<p>Developed and Managed by Taldar Tech Consultancy</p></p>
+                <p className="border-bottom"> Copyright © 2023 Tanplast Ghana. All Right Reserved.</p>
               </div>
 
 

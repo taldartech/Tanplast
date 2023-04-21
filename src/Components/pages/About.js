@@ -42,13 +42,13 @@ function About() {
               <div className="team-item rounded overflow-hidden pb-4">
 
                 <h2> Mission</h2>
-                <h5 className="fw-lighter  pb-5">Tanplast Ghana Limited is committed to providing quality
+                <h5 className="pb-5">Tanplast Ghana Limited is committed to providing quality
                   packaging solutions to all industries and stakeholders, and it
                   dutifully complies with industry-standardized systems in order
                   to ensure the safety of people and the environment.</h5>
 
                 <h2> Vision</h2>
-                <h5 className="fw-normal ">To be the most refined and sought-after manufacturer in the
+                <h5 className=" ">To be the most refined and sought-after manufacturer in the
                   plastic packaging industry by using highly standardized
                   systems, state-of-the-art technology and equipment, and
                   innovative solutions that will satisfy our clients' needs.</h5>

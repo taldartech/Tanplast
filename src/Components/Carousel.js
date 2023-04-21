@@ -12,7 +12,7 @@ function Carousel() {
                 <div className="row justify-content-start">
                   <div className="col-lg-8">
 
-                    <h5 className="display-1 mb-4 animated slideInDown">Welcome To Tanplast
+                    <h5 className="display-1 mb-4 animated slideInDown">Welcome <span style={{color:"#fbb31b"}}>To</span> Tanplast
                     </h5>
                     <Link to="/contact" className="btn btn-primary py-3 px-5 animated slideInDown" style={{ backgroundColor: "#1f2859" }}>Contact us</Link>
                   </div>
@@ -28,7 +28,7 @@ function Carousel() {
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h5 className="display-1 mb-4 animated slideInDown">Plastic Packaging</h5>
+                    <h5 className="display-1 mb-4 animated slideInDown text-white">Plastic <span style={{color:"#fbb31b"}}>Pac</span>kaging</h5>
                   </div>
                 </div>
               </div>

@@ -26,7 +26,7 @@ function Client() {
           <div className="row g-5">
             <div className="col-lg-3 d-none d-lg-block">
               <div className="client2-left h-100">
-                <img className="img-fluid animated pulse infinite" src="img/clients/SBLLOGO.png" alt="" />
+                <img className="img-fluid animated pulse infinite" src="img/clients/sbllogo.png" alt="" />
                 <img className="img-fluid animated pulse infinite" src="img/clients/pepperslogo.jpg" alt="" />
                 <img className="img-fluid animated pulse infinite" src="img/clients/papaye-logo.png" alt="" />
               </div>
@@ -34,7 +34,7 @@ function Client() {
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               <OwlCarousel className="owl-carousel client2-carousel" items={1} nav margin={3} autoplay={true} loop data-wow-delay="0.3s">
                 <div className="client2-item text-center">
-                  <img className="img-fluid rounded mx-auto mb-4" src="img/clients/SBLLOGO.png" alt="" />
+                  <img className="img-fluid rounded mx-auto mb-4" src="img/clients/sbllogo.png" alt="" />
                   <p className="fs-5">
                   </p>
                   <h5>SBL</h5>
