@@ -130,7 +130,7 @@ function Industrial() {
 
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="example-Modal3">Food and beverages</h5>
+                            <h5 class="modal-title" id="example-Modal3">Industrial Consumers</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>

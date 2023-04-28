@@ -56,7 +56,7 @@ function Carousel() {
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h5 className="display-1 mb-4 animated slideInDown text-white">Packagin<span style={{color:"#fbb31b"}}>g</span> Manufa<span style={{color:"#fbb31b"}}>ctu</span>rers</h5>
+                    <h5 className="display-1 mb-4 animated slideInDown text-white">Packagi<span style={{color:"#fbb31b"}}>ng</span> Manuf<span style={{color:"#fbb31b"}}>actu</span>rers</h5>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ function Carousel() {
                 <div className="row justify-content-start">
                   <div className="col-lg-7">
 
-                    <h5 className="display-1 mb-4 animated slideInDown text-white">Customi<span style={{color:"#fbb31b"}}>zed</span> Product<span style={{color:"#fbb31b"}}>s</span></h5>
+                    <h5 className="display-1 mb-4 animated slideInDown text-white">Custom<span style={{color:"#fbb31b"}}>ized</span> Produc<span style={{color:"#fbb31b"}}>ts</span></h5>
                   </div>
                 </div>
               </div>

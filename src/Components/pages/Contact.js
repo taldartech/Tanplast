@@ -2,36 +2,26 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import Footers from "../Footers"
 import Header from "../Header"
-function Contact() {
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+const Contact=()=> {
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const form = useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  function submit(e) {
-    e.preventDefault()
+    emailjs.sendForm('service_vxez42b', 'template_3muhhup', form.current, '2E3SdEOM5Fd6HVD4g')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      alert("email sent successfully")
+  };
+  
 
-    let data = { name, email, subject, message }
-    console.log(data)
-    fetch("http://localhost:3000/products",
-      {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-type': 'application/json'
-        },
-        body: JSON.stringify(data)
-      }).then((result) => {
-        result.json()
-          .then((resp) => {
-            console.warn(resp)
-          })
-      })
-    alert("Email sent successfully")
-
-  }
+  
   return (
     <div>
       <Header />
@@ -60,33 +50,33 @@ function Contact() {
                 </div>
               </div>
 
-              <form className="pb-5" onSubmit={submit}>
+              <form className="pb-5" ref={form} onSubmit={sendEmail}>
                 <h3 className="text-start">Send us a Message</h3>
                 <div className="row g-3">
                   <div className="col-md-7">
                     <div className="form-floating pb-2">
-                      <input type="text" className="form-control" id="name" placeholder="Your Name" onChange={(e) => setName(e.target.value)} />
+                      <input type="text" className="form-control" id="name" placeholder="Your Name" name="name"  />
                       <label htmlFor="name">Your Name</label>
                     </div>
 
                     <div className="form-floating pb-2">
-                      <input type="email" className="form-control" id="email" placeholder="Your Email" onChange={(e) => setEmail(e.target.value)} />
+                      <input type="email" className="form-control" id="email" placeholder="Your Email" name="email"  />
                       <label htmlFor="email">Your Email</label>
                     </div>
 
                     <div className="form-floating pb-2">
-                      <input type="text" className="form-control" id="subject" placeholder="Subject" onChange={(e) => setSubject(e.target.value)} />
+                      <input type="text" className="form-control" id="subject" placeholder="Subject" name="subject"/>
                       <label htmlFor="subject">Subject</label>
                     </div>
                   </div>
                   <div className="col-md-5">
                     <div className="form-floating pb-2">
-                      <textarea className="form-control" placeholder="Leave a message here" id="message" style={{ height: "187px" }} onChange={(e) => setMessage(e.target.value)} />
+                      <textarea className="form-control" placeholder="Leave a message here" id="message" name="message" style={{ height: "187px" }}  />
                       <label htmlFor="message">Message</label>
                     </div>
                   </div>
                   <div className="col-12 text-end">
-                    <button className="btn py-3 px-5 " type="submit" style={{ backgroundColor: "#1f2859", color: "white" }}>Send Message</button>
+                    <button className="btn py-3 px-5 " type="submit" value="send" style={{ backgroundColor: "#1f2859", color: "white" }}>Send Message</button>
                   </div>
                 </div>
               </form>
