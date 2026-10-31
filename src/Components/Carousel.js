@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Carousel() {
   return (
 
@@ -6,7 +6,7 @@ function Carousel() {
       <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel" >
         <div className=" carousel-inner ">
           <div className="carousel-item active" >
-            <img className="w-100" src="img/carousel/banner5.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner5.png" alt="Tanplast Banner 1" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
@@ -22,7 +22,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-            <img className="w-100" src="img/carousel/banner6.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner6.png" alt="Tanplast Banner 2" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
@@ -35,7 +35,7 @@ function Carousel() {
             </div>
 
           </div> <div className="carousel-item">
-            <img className="w-100" src="img/carousel/banner7.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner7.png" alt="Tanplast Banner 3" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
@@ -50,7 +50,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-            <img className="w-100" src="img/carousel/banner8.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner8.png" alt="Tanplast Banner 4" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">
@@ -64,7 +64,7 @@ function Carousel() {
 
           </div>
           <div className="carousel-item">
-            <img className="w-100" src="img/carousel/banner9.png" alt="Image" height="400px" />
+            <img className="w-100" src="img/carousel/banner9.png" alt="Tanplast Banner 5" height="400px" />
             <div className="carousel-caption">
               <div className="container">
                 <div className="row justify-content-start">

@@ -32,7 +32,7 @@ function About() {
             <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item rounded overflow-hidden pb-4">
 
-                <img src="img/logovertical.png" height="350px" />
+                <img src="img/logovertical.png" height="350px" alt="Tanplast" />
                 
 
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -10,7 +10,6 @@ function Client() {
         <div className='container' >
         <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
             <p className="d-inline-block border rounded text-primary fw-bold py-1 px-3"  >Our Super Clients</p>
-            <h1 className="display-5 mb-5" />
           </div>
       </div>
     </div>
@@ -75,7 +74,7 @@ function Client() {
               <div className="client2-right h-100 ">
                 <img className="img-fluid animated pulse infinite" src="img/clients/fcity_logo.png" alt="" />
                 <img className="img-fluid animated pulse infinite" src="img/clients/fareastlogo.png" alt="" />
-                <img className="img-fluid animated pulse infinite" src="img/clients/electroland-ghana-ltd_logo.png" />
+                <img className="img-fluid animated pulse infinite" src="img/clients/electroland-ghana-ltd_logo.png" alt="" />
               </div>
             </div>
           </div>

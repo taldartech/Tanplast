@@ -2,7 +2,6 @@
 import Header from "../Header";
 import Footers from "../Footers";
 import { Link } from "react-router-dom";
-import Client from "../Client";
 function Businesses() {
     return (
         <>

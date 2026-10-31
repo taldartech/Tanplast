@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tanplast - Redirecting...</title>
+    <script>
+      (function () {
+        // Redirect any direct URL hits to hash route for GitHub Pages
+        var base = '/Tanplast/';
+        var path = window.location.pathname;
+        if (path.indexOf(base) === 0) {
+          var route = path.substring(base.length);
+          window.location.replace(base + '#/' + route + window.location.search + window.location.hash);
+        } else {
+          window.location.replace('/Tanplast/');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/Tanplast/">Tanplast</a>...</p>
+  </body>
+</html>

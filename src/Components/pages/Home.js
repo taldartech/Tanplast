@@ -4,7 +4,6 @@ import Carousel from "../Carousel";
 import Services from "../Services";
 import Client from "../Client";
 import Footers from "../Footers";
-import Topbar from "../Topbar";
 
 
 function Home() {
@@ -23,7 +22,7 @@ function Home() {
               <p className="mb-4"> </p>
               <div className="row rounded py-4">
                 <div className="col-md-4 col-sm-6 wow fadeInUp " data-wow-delay="0.1s">
-                  <img className="img-fluid rounded w-100" src="img/about.jpg" style={{ height: "300px" }} />
+                  <img className="img-fluid rounded w-100" src="img/about.jpg" alt="About Tanplast" style={{ height: "300px" }} />
 
 
 

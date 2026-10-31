@@ -1,33 +1,42 @@
-# Getting Started with Create React App
+# Tanplast Ghana Official Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern React web application for Tanplast Ghana Limited, showcasing plastic packaging solutions, industrial products, company mission, and contact information.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
 
 ### `npm run build`
+Compiles production-ready optimized assets into the `build` directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm run deploy`
+Builds and deploys the production bundle to the `gh-pages` branch on GitHub using the `gh-pages` package.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## GitHub Pages Hosting Guide
+
+This project is fully configured for deployment on **GitHub Pages**:
+
+### Option 1: Automated Deployment via GitHub Actions (Recommended)
+A GitHub Actions workflow is set up at `.github/workflows/deploy.yml`.
+1. Go to your repository on GitHub: **Settings > Pages**.
+2. Under **Build and deployment > Source**, select **GitHub Actions**.
+3. Push commits to `phase1` or `main`. The deployment workflow will trigger automatically and publish the website to:
+   `https://taldartech.github.io/Tanplast/`
+
+### Option 2: Manual Deployment with `gh-pages`
+If you prefer deploying directly from your local terminal:
+1. Ensure your git remote is configured and you have write permissions.
+2. Run:
+   ```bash
+   npm run deploy
+   ```
+3. Go to **Settings > Pages** on GitHub and set **Source** to **Deploy from a branch**, selecting the `gh-pages` branch and `/ (root)`.
+
 
 ### `npm run eject`
 

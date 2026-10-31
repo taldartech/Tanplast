@@ -1,6 +1,4 @@
-import Links from "./Links";
-import Javascript from "./Javascript";
-import React, { Component } from 'react';
+import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -29,7 +27,6 @@ const state={
         <div className="container " >
           <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
             <p className="d-inline-block border rounded fw-bold py-1 px-3" style={{color:"#fbb31b"}}>Our Products</p>
-            <h1 className="display-5 mb-5" />
           </div>
           <OwlCarousel className="service-carousel rounded px-2 py-2" responsive={state.responsive} margin={8} autoplay={true} loop  data-wow-delay="0.3s">
             <div className="project-item pe-5 pb-5 mx-2">
@@ -44,7 +41,7 @@ const state={
             <div className="project-item pe-5 pb-5 mx-2">
               <div className="project-img mb-5">
                 <img className="img-fluid rounded" src="img/products/shoppingoutlets.jpg" alt="" style={{ height: '300px' }} />
-                <Link to="shoppingoutlets"><i className="fa fa-link fa-3x text-primary" /></Link>
+                <Link to="/shoppingoutlets"><i className="fa fa-link fa-3x text-primary" /></Link>
               </div>
               <div className="project-title ">
                 <h4 className="mb-0 ">SHOPPING OUTLETS</h4>

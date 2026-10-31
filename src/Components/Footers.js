@@ -40,7 +40,7 @@ function Footers() {
               <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-4">Our Promoters</h4>
                 <p />
-                <Link className="btn btn-link" target="_blank" to="https://sblelectronics.com/">SBL</Link>
+                <a className="btn btn-link" target="_blank" rel="noopener noreferrer" href="https://sblelectronics.com/">SBL</a>
               </div>
               {/* Copyright Start */}
 
@@ -56,7 +56,7 @@ function Footers() {
         {/* Footer End */}
 
         {/* Back to Top */}
-        <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style={{backgroundColor:"#fbb31b"}}><i className="bi bi-arrow-up" /></a>
+        <a href="#top" aria-label="Back to top" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style={{backgroundColor:"#fbb31b"}}><i className="bi bi-arrow-up" /></a>
       </div>
     </>
   )

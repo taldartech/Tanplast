@@ -21,27 +21,27 @@ const Header = () => {
   });
   /*Google TRanslate Method */
   useEffect(() => {
+    let duplicate_google_translate_counter = 0;
+    window.googleTranslateElementInit = function() {
+      if (duplicate_google_translate_counter === 0 && window.google && window.google.translate) {
+        new window.google.translate.TranslateElement({
+          pageLanguage: 'en',
+          autoDisplay: false,
+          layout: window.google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+          includedLanguages: 'en,fr,'
+        }, 'google_translate_element');
+      }
+      duplicate_google_translate_counter++;
+    };
+
     var addScript = document.createElement("script");
     addScript.setAttribute(
       "src",
       "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     );
     document.body.appendChild(addScript);
-    window.googleTranslateElementInit = googleTranslateElementInit;
   }, []);
   //ends
-
-    /* method to google translate  remove duplicate occurance*/
-    var duplicate_google_translate_counter = 0;//this stops google adding button multiple times
-
-    function googleTranslateElementInit() {
-       if (duplicate_google_translate_counter == 0) {
-          new window.google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false,layout: window.google.translate.TranslateElement.InlineLayout.HORIZONTAL,
-          includedLanguages: 'en,fr,'}, 'google_translate_element');
-       }
-       duplicate_google_translate_counter++;
-    }
-    //ends
     
   /* Method that will fix header after a specific scrollable */
   const fixedtop = (e) => {
@@ -76,7 +76,7 @@ const Header = () => {
 
         <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
           <Link to="/" className="navbar-brand ms-4 ms-lg-0">
-            <img src="img/Tanplast.png" height="60px" />
+            <img src="img/Tanplast.png" height="60px" alt="Tanplast Logo" />
           </Link>
           
           <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
