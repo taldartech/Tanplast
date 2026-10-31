@@ -18,7 +18,7 @@ function Footers() {
                 <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233577774555</p>
                 <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233558396372</p>
                 <p className="mb-2"><i className="fa fa-phone-alt me-3" />+233573555150</p>
-                <p className="mb-2"><i className="fa fa-envelope me-3" />tanplastghana10@gmail.com</p>
+                <p className="mb-2"><i className="fa fa-envelope me-3" />info@tanplastghana.com</p>
 
               </div>
               <div className="col-lg-3 col-md-6">

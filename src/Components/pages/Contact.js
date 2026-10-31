@@ -10,7 +10,7 @@ const Contact=()=> {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_vxez42b', 'template_3muhhup', form.current, '2E3SdEOM5Fd6HVD4g')
+    emailjs.sendForm('service_jyzkia1', 'template_fzrzv98', form.current, 'XIYZa-eYQkmPWID2Y')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -43,11 +43,7 @@ const Contact=()=> {
         <div className="container">
           <div className="row g-5">
             <div className="text-center col-lg-12 wow fadeIn pb-5" data-wow-delay="0.1s">
-              <div className="col-lg-12 col-md-12 wow fadeIn" data-wow-delay="0.5s" style={{ width: "100%" }}>
-                <div className="position-relative rounded h-100 w-100">
-                  <iframe title="Tanplast Location" className="position-relative w-100 h-100 pb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameBorder={0} style={{ minHeight: '450px', border: 0 }} allowFullScreen aria-hidden="false" tabIndex={0} />
-                </div>
-              </div>
+             
 
               <form className="pb-5" ref={form} onSubmit={sendEmail}>
                 <h3 className="text-start">Send us a Message</h3>
@@ -84,7 +80,7 @@ const Contact=()=> {
                 <div className="col-md-6 text-start">
                   <div className="pb-2"><h5 className="fw-bold"><i className="fa fa-map-marker-alt text-primary me-2" />ADDRESS</h5> <h5 className="">8,Kwatsons Warehouse,Printex Junction,Spintex Road,Accra</h5></div>
                   <div className="pb-2"><h5 className="fw-bold">GHANA POST GPS</h5> <h5 className=""> GT-335-3131</h5></div>
-                  <div className="pb-2"><h5 className="fw-bold"><i className="fa fa-envelope text-primary me-2" />Email</h5> <h5 className="">tanplastghana10@gmail.com</h5></div>
+                  <div className="pb-2"><h5 className="fw-bold"><i className="fa fa-envelope text-primary me-2" />Email</h5> <h5 className="">info@tanplastghana.com</h5></div>
                 </div>
 
                 <div className="text-start right col-md-4">
